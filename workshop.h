@@ -5,7 +5,7 @@ using namespace std;
 void changeValue(double *a) { *a = 42; }
 void printArray(double *array, int size) {
   for (int i = 0; i < size; i++) {
-    cout << array[i] << endl;
+    cout << array[i] << ' ';
   }
 }
 double arrayMax(double *array, int size) {
