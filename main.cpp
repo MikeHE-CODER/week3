@@ -4,7 +4,7 @@ using namespace std;
 int main() {
   double number = 5;
   changeValue(&number);
-  double *array = new double[number]();
+  double *array = new double[5]();
   printArray(array, 5);
   arrayMax(array, 5);
   double *array2 = dynamicArray(10);
